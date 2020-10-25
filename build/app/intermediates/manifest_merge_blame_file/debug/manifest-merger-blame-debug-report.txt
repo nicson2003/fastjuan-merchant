@@ -1,0 +1,78 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="tech.urmilshroff.dashboard_reborn"
+4    android:versionCode="5"
+5    android:versionName="1.1.1" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="29" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->D:\FREELANCE3\dashboard_reborn\android\app\src\debug\AndroidManifest.xml:6:5-66
+14-->D:\FREELANCE3\dashboard_reborn\android\app\src\debug\AndroidManifest.xml:6:22-64
+15
+16    <application
+16-->D:\FREELANCE3\dashboard_reborn\android\app\src\main\AndroidManifest.xml:3:5-24:19
+17        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+17-->[androidx.core:core:1.1.0] C:\Users\ZCIANZ\.gradle\caches\transforms-2\files-2.1\ddc4d5d5d8ba7442d59e0399238a2056\core-1.1.0\AndroidManifest.xml:24:18-86
+18        android:debuggable="true"
+19        android:extractNativeLibs="false"
+20        android:icon="@mipmap/launcher_icon"
+20-->D:\FREELANCE3\dashboard_reborn\android\app\src\main\AndroidManifest.xml:5:9-45
+21        android:label="Dashboard Reborn" >
+21-->D:\FREELANCE3\dashboard_reborn\android\app\src\main\AndroidManifest.xml:4:9-41
+22        <activity
+22-->D:\FREELANCE3\dashboard_reborn\android\app\src\main\AndroidManifest.xml:6:9-20:20
+23            android:name="io.flutter.embedding.android.FlutterActivity"
+23-->D:\FREELANCE3\dashboard_reborn\android\app\src\main\AndroidManifest.xml:7:13-72
+24            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+24-->D:\FREELANCE3\dashboard_reborn\android\app\src\main\AndroidManifest.xml:10:13-144
+25            android:hardwareAccelerated="true"
+25-->D:\FREELANCE3\dashboard_reborn\android\app\src\main\AndroidManifest.xml:11:13-47
+26            android:launchMode="singleTop"
+26-->D:\FREELANCE3\dashboard_reborn\android\app\src\main\AndroidManifest.xml:8:13-43
+27            android:theme="@style/LaunchTheme"
+27-->D:\FREELANCE3\dashboard_reborn\android\app\src\main\AndroidManifest.xml:9:13-47
+28            android:windowSoftInputMode="adjustResize" >
+28-->D:\FREELANCE3\dashboard_reborn\android\app\src\main\AndroidManifest.xml:12:13-55
+29            <meta-data
+29-->D:\FREELANCE3\dashboard_reborn\android\app\src\main\AndroidManifest.xml:13:13-15:40
+30                android:name="io.flutter.app.android.SplashScreenUntilFirstFrame"
+30-->D:\FREELANCE3\dashboard_reborn\android\app\src\main\AndroidManifest.xml:14:17-82
+31                android:value="true" />
+31-->D:\FREELANCE3\dashboard_reborn\android\app\src\main\AndroidManifest.xml:15:17-37
+32
+33            <intent-filter>
+33-->D:\FREELANCE3\dashboard_reborn\android\app\src\main\AndroidManifest.xml:16:13-19:29
+34                <action android:name="android.intent.action.MAIN" />
+34-->D:\FREELANCE3\dashboard_reborn\android\app\src\main\AndroidManifest.xml:17:17-68
+34-->D:\FREELANCE3\dashboard_reborn\android\app\src\main\AndroidManifest.xml:17:25-66
+35
+36                <category android:name="android.intent.category.LAUNCHER" />
+36-->D:\FREELANCE3\dashboard_reborn\android\app\src\main\AndroidManifest.xml:18:17-76
+36-->D:\FREELANCE3\dashboard_reborn\android\app\src\main\AndroidManifest.xml:18:27-74
+37            </intent-filter>
+38        </activity>
+39
+40        <meta-data
+40-->D:\FREELANCE3\dashboard_reborn\android\app\src\main\AndroidManifest.xml:21:9-23:33
+41            android:name="flutterEmbedding"
+41-->D:\FREELANCE3\dashboard_reborn\android\app\src\main\AndroidManifest.xml:22:13-44
+42            android:value="2" />
+42-->D:\FREELANCE3\dashboard_reborn\android\app\src\main\AndroidManifest.xml:23:13-30
+43
+44        <activity
+44-->[:url_launcher] D:\FREELANCE3\dashboard_reborn\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-11:74
+45            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+45-->[:url_launcher] D:\FREELANCE3\dashboard_reborn\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-74
+46            android:exported="false"
+46-->[:url_launcher] D:\FREELANCE3\dashboard_reborn\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:10:13-37
+47            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+47-->[:url_launcher] D:\FREELANCE3\dashboard_reborn\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:11:13-71
+48    </application>
+49
+50</manifest>
